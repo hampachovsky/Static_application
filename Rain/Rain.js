@@ -5,7 +5,7 @@ function Rain(x, y) {
 
 	this.show = function() {
 		noFill();
-		stroke(13, 84, 150);
+		stroke(33, 184, 255);
 		ellipse(this.x, this.y, this.w);
 
 	}
