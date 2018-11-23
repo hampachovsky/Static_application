@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF_8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http_equiv="X_UA_Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/Style.css">
+</head>
+<body>
+	
+    
+    <div class="slide-container">
+        <ul>
+            <li class="first-slide Slide"><span class="Title-Slide-Click-Open-Modal">First Slide</span></li>
+            <li class="second-slide Slide"><span class="Title-Slide-Click-Open-Modal">Second Slide</span></li>
+            <li class="third-slide Slide"><span class="Title-Slide-Click-Open-Modal">Third Slide</span></li>
+            <li class="four-slide Slide"><span class="Title-Slide-Click-Open-Modal">Four Slide</span></li>  
+        </ul>
+    </div>
+    <div class="button-change-slide-container">
+        <button class="Previus for-btn-style" onclick=Change_Slide(-1)>Previus</button>
+        <button class="for-btn-style" onclick=Change_Slide(1)>Next</button>
+    </div>
+
+    <div class="modal-alert">
+        <div class="modal-content">
+            <h1 class="modal-head">Lorem, ipsum dolor. FIRST H</h1>
+            <p class="modal-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam.</p>
+            <div class="btn-modal-container">
+                <button class="btn-close for-btn-style">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-alert">
+        <div class="modal-content">
+            <h1 class="modal-head">Lorem, ipsum dolor. SECOND H</h1>
+            <p class="modal-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam.</p>
+            <div class="btn-modal-container">
+                <button class="btn-close for-btn-style">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-alert">
+        <div class="modal-content">
+            <h1 class="modal-head">Lorem, ipsum dolor. THIRD H</h1>
+            <p class="modal-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam.</p>
+            <div class="btn-modal-container">
+                <button class="btn-close for-btn-style">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal-alert">
+        <div class="modal-content">
+            <h1 class="modal-head">Lorem, ipsum dolor. Four H</h1>
+            <p class="modal-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, quisquam.</p>
+            <div class="btn-modal-container">
+                <button class="btn-close for-btn-style">Close</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="src/js/script.js" ></script>
+</body>
+</html>
