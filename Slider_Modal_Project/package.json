@@ -1,0 +1,11 @@
+{
+  "name": "Slider_Application_With_Modal",
+  "version": "1.2.7",
+  "description": "None",
+  "main": "index.js",
+  "author": "Hampe",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
