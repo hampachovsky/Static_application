@@ -11,21 +11,20 @@ function Change_Slide(change_slide) {
 
 function Show_Slide () {
 	const Slide = document.getElementsByClassName('Slide'); 
-	for (let i = 0; i < Slide.length; i++) {
-		Slide[i].style.display = "none"; 
-	}
-
+	
 	if(Current_Slide >= Slide.length) { 
 		Current_Slide = 0;
 	}
-	if (Current_Slide <= 0) {
-		Current_Slide = 0;
+	if (Current_Slide < 0) {
+		Current_Slide = Slide.length-1;
+	}
+	for (let i = 0; i < Slide.length; i++) {
+		Slide[i].style.display = "none";
 	}
 	for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
 		on_Title_Slide_Click_Open_Modal[index].style.color = "rgb(255,255,255)"; // change to default color 
 		
-	}	
-	//Slide[Current_Slide].style.display = "flex"
+	}
 	$(Slide[Current_Slide]).fadeIn("fast");
 }
 
