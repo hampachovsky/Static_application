@@ -6,7 +6,8 @@
   "author": "Hampe",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "node-sass": "^4.10.0"
   },
   "repository": "https://github.com/hampachovsky/Static_Application"
 }
