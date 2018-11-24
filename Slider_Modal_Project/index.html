@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="src/css/Style.css">
 </head>
 <body>
-	
-    
     <div class="slide-container">
         <ul>
             <li class="first-slide Slide"><span class="Title-Slide-Click-Open-Modal">First Slide</span></li>
@@ -19,8 +17,8 @@
         </ul>
     </div>
     <div class="button-change-slide-container">
-        <button class="Previus for-btn-style" onclick=Change_Slide(-1)>Previus</button>
-        <button class="for-btn-style" onclick=Change_Slide(1)>Next</button>
+        <button class="previus-btn slide-btn for-btn-style" onclick=Change_Slide(-1)>&#60</button>
+        <button class="next-btn slide-btn for-btn-style" onclick=Change_Slide(1)>&#62</button>
     </div>
 
     <div class="modal-alert">
@@ -62,7 +60,7 @@
 
 
 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="src/lib/jquery.min.js"></script>
 <script src="src/js/script.js" ></script>
 </body>
 </html>
