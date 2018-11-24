@@ -2,7 +2,7 @@
   "name": "sliderapplication",
   "version": "1.2.7",
   "description": "None",
-  "main": "index.js",
+  "main": "script.js",
   "author": "Hampe",
   "license": "MIT",
   "dependencies": {
