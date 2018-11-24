@@ -1,5 +1,5 @@
 {
-  "name": "Slider_Application_With_Modal",
+  "name": "sliderapplication",
   "version": "1.2.7",
   "description": "None",
   "main": "index.js",
@@ -7,5 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "jquery": "^3.3.1"
-  }
+  },
+  "repository": "https://github.com/hampachovsky/Static_Application"
 }
