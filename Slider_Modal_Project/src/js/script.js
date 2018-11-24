@@ -32,9 +32,6 @@ const modal_alert = document.getElementsByClassName("modal-alert");
 const btn_close_modal = document.getElementsByClassName("btn-close");
 
 
-
-
-
 for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
 	on_Title_Slide_Click_Open_Modal[index].addEventListener("click", (event) => {
 		event.target.style.color = "rgb(34, 34, 34)"; //Click on title slide change color
@@ -46,7 +43,7 @@ for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
 	btn_close_modal[index].addEventListener("click", () => { 
 		$(modal_alert[index]).fadeOut("slow"); //hide when click on btn close
 	});
-	
+
 	
 }
 
