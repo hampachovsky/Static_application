@@ -145,4 +145,9 @@
   -ms-flex-align: center;
   align-items: flex-end;
 }
+
+.modal-alert .modal-content .btn-modal-container .btn-close {
+  -webkit-box-shadow: 5 5 10px rgba(56, 61, 74, 0.699);
+          box-shadow: 5 5 10px rgba(56, 61, 74, 0.699);
+}
 /*# sourceMappingURL=style.css.map */
