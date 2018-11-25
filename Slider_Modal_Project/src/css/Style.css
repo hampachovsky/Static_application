@@ -20,6 +20,8 @@
   height: 45px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 4%;
+  -webkit-box-shadow: 5px 5px 20px rgba(56, 61, 74, 0.699);
+          box-shadow: 5px 5px 20px rgba(56, 61, 74, 0.699);
   cursor: pointer;
 }
 
@@ -48,6 +50,8 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-shadow: 5px 5px 20px rgba(56, 61, 74, 0.699);
+          box-shadow: 5px 5px 20px rgba(56, 61, 74, 0.699);
 }
 
 .first-slide {
@@ -109,7 +113,7 @@
 
 .modal-alert .modal-content {
   width: 800px;
-  height: 700px;
+  height: 500px;
   color: #222222;
   background-color: #fff;
   text-align: center;
@@ -123,9 +127,9 @@
 }
 
 .modal-alert .modal-content .modal-paragraph {
-  margin-top: 25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
+  margin: 20px;
 }
 
 .modal-alert .modal-content .btn-modal-container {
@@ -140,5 +144,10 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: flex-end;
+}
+
+.modal-alert .modal-content .btn-modal-container .btn-close {
+  -webkit-box-shadow: 5 5 10px rgba(56, 61, 74, 0.699);
+          box-shadow: 5 5 10px rgba(56, 61, 74, 0.699);
 }
 /*# sourceMappingURL=style.css.map */
