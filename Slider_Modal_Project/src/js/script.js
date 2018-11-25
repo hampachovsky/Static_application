@@ -31,8 +31,9 @@ const btn_close_modal = document.getElementsByClassName("btn-close");
 for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
 	on_Title_Slide_Click_Open_Modal[index].addEventListener("click", (event) => {
 		event.target.style.color = "rgb(34, 34, 34)"; //Click on title slide change color
-		$(modal_alert[index]).show("slow"); // show modal
-		modal_alert[index].style.display = "flex"; // animete showing
+		$(modal_alert[index]).fadeIn("slow").css({
+			display: "flex"
+		}); // show modal
 	});
 	
 	btn_close_modal[index].addEventListener("click", () => { 
