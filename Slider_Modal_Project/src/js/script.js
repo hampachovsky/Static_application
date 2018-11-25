@@ -29,13 +29,13 @@ const btn_close_modal = document.getElementsByClassName("btn-close");
 for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
 	on_Title_Slide_Click_Open_Modal[index].addEventListener("click", (event) => {
 		event.target.style.color = "rgb(34, 34, 34)"; //Click on title slide change color
-		$(modal_alert[index]).fadeIn("slow").css({
+		$(modal_alert[index]).fadeIn("medium").css({
 			display: "flex"
 		}); // show modal
 	});
 	
 	btn_close_modal[index].addEventListener("click", () => { 
-		$(modal_alert[index]).fadeOut("slow"); //hide when click on btn close
+		$(modal_alert[index]).fadeOut("medium"); //hide when click on btn close
 	});
 	
 }

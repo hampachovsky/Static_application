@@ -1,1 +1,1 @@
-# Static_application
+# Static_applications
