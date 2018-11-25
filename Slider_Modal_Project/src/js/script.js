@@ -18,9 +18,7 @@ function Show_Slide () {
 	}
 	for (let i = 0; i < Slide.length; i++) {
 		Slide[i].style.display = "none";
-	}
-	for (let index = 0; index < on_Title_Slide_Click_Open_Modal.length; index++) {
-		on_Title_Slide_Click_Open_Modal[index].style.color = "rgb(255,255,255)"; // change to default color 
+		on_Title_Slide_Click_Open_Modal[i].style.color = "rgb(255,255,255)"; // change to default color 
 	}
 	$(Slide[Current_Slide]).fadeIn("fast");
 }
