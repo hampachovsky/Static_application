@@ -5,18 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1 class="header">Test with headers</h1>
-        <input
-            id="range-header"
-            type="range"
-            value="15"
-            min="0"
-            max="100"
-            step="4"
-        />
-        <label for="range-header"></label>
+        <div class="container">
+            <h1>Test with headers</h1>
+            <div class="range-container">
+                <input
+                    id="range-header"
+                    type="range"
+                    min="0"
+                    max="100"
+                    step="4"
+                />
+                <label for="range-header"></label>
+            </div>
+            <div class="btn-container">
+                <button class="btn">Reset</button>
+            </div>
+        </div>
         <script type="text/javascript" src="script.js"></script>
     </body>
 </html>

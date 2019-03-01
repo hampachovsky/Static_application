@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.range-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin-right: 5px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    margin-top: 25px;
+}
