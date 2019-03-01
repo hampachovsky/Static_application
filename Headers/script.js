@@ -11,8 +11,8 @@ function bindValue(label, input) {
 function resetValue(standartHeaderValue, standartGapValue) {
     headerRange.value = standartHeaderValue;
     gapRange.value = standartGapValue;
-    header.style.fontSize = `${standartHeaderValue}px`;
-    header.style.margin = `${standartGapValue}px`;
+    header.style.fontSize = `${headerRange.value}px`;
+    header.style.margin = `${gapRange.value}px`;
     bindValue(headerRangeLabel, headerRange);
     bindValue(gapRangeLabel, gapRange);
 }
