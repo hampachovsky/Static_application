@@ -20,6 +20,7 @@
 
 input {
     margin-right: 5px;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -32,5 +33,9 @@ h1 {
 .btn {
     height: 35px;
     width: 100px;
-    margin-top: 25px;
+}
+
+.remove-btn {
+    margin-left: 15px;
+    width: 100px;
 }
