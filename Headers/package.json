@@ -1,0 +1,22 @@
+{
+    "name": "header",
+    "version": "1.0.0",
+    "description": "vanila practice",
+    "main": "index.js",
+    "author": "Hampe",
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "^5.15.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0"
+    },
+    "eslintConfig": {
+        "extends": [
+            "airbnb-base"
+        ],
+        "globals": {
+            "window": true,
+            "document": true
+        }
+    }
+}
